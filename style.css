@@ -187,3 +187,58 @@ color: white;
 .imgtext p{
  color:#B3B3B3;
 }
+/*  */
+.Touch{
+ padding: 80px 100px;
+display: flex;
+
+}
+.touchL h1{
+       font-family: "Raleway", sans-serif;
+       font-weight: bold;
+       font-size: 97px;
+       padding: 20px;
+}
+form{
+    height: 490px;
+    width: 497px;
+}
+.email,.name,.textttt{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+         font-family: "Inter", sans-serif;
+         font-weight: 500px;
+         place-items: 20px;
+
+    
+}
+input{
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+
+}
+textarea{
+    outline: none;
+    border: none;
+      border-radius: 10px;
+      padding: 30px;
+}
+.formbutton{
+    width: 100%;
+    margin-top: 20px;
+     padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius:10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+textarea::placeholder {
+  font-size: 18px;
+}
+input::placeholder {
+  font-size: 18px;
+}
