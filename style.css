@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+body{
+    background:rgba(78, 71, 255, 0.01);
+    color: rgba(78, 71, 255, 0.01);
+}
+button:hover{
+    background: yellow;
+    color: black;
+}
 
 .raleway{
   font-family: "Raleway", sans-serif;
@@ -41,6 +49,7 @@ color: #4E47FF;
 }
 main{
     text-align: center;
+    color: black;
     
 }
 main h2{
@@ -59,6 +68,7 @@ main button{
     font-size: 16px;
 
 }
+/* Action Section */
 .Action-Section{
     display: flex;
     align-items: center;
@@ -72,6 +82,7 @@ main button{
     padding:10px 0px ;
     font-size: 42px;
     font-weight: bold;
+    color: black;
 }
 .actionL p{
     color: rgba(37, 36, 50, 0.5);
@@ -89,4 +100,52 @@ main button{
 }
 .actionR img{
     border-radius: 30px;
+}
+
+/* Productive Users Section  */
+.all{
+     padding: 80px 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.productive{
+    padding: 50px 0px;
+  text-align: center;
+background-color: rgba(78, 71, 255, 0.1);
+border-radius: 20px;
+ width: 1140px;
+ height: 250px;
+}
+.box{
+    padding:30px 70px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+.productive h2{
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+   font-family: "Raleway", sans-serif;
+
+}
+.text-pro h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+      font-family: "Inter", sans-serif;
+}
+.text-pro p{
+    font-family:Inter ;
+    font-size:20px;
+ color: rgba(0, 0, 0, 0.5);
+   font-family: "Inter", sans-serif;
+}
+.con{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+color: white;
+    width: 366px;
+    height: 243px;
 }
