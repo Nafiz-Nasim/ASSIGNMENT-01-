@@ -20,8 +20,3 @@ This is a basic landing page developed for a bootcamp assignment. It uses **HTML
 - Simple layout using HTML and CSS
 - Basic styling with no responsive design features
 
-## How to Run
-
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/landing-website.git
